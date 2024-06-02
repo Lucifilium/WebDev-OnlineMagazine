@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang= "en">
+  
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Stylesheet/styles.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>Report</title>
+</head>
+<body>
+    
+    <div class="topbar">
+        <a href="index.html">
+            <div class="header"><b>REPORT</b></div>
+        </a>
+    </div>
+    <ul id="navbar">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="index.html#information">News</a></li>
+        <li class="dropdown">
+            <a class="dropbtn">Games</a>
+            <div class="dropdown-content">
+                <a href="GameInfo1.html#halo">Halo Infinite</a>
+                <a href="GameInfo1.html#bf2042">Battlefield 2042</a>
+                <a href="GameInfo2.html#horizon">Horizon Forbidden West</a>
+                <a href="GameInfo2.html#dying">Dying Light 2</a>
+            </div>
+        </li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="report.html">Report</a></li>
+        <a href="Subscribe.html" class="rightbutton">SUBSCRIBE</a>
+    </ul>
+<hr>
+<div class="report">
+    <h1>Report: Large Coursework</h1>
+    <h2>NAME: <u>Vincent Tan De Hao</u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; UOL Student Number: <u>210201325</u></h2>
+
+    <h3><u>Introduction: What is the essential story being told by your site and what type of structure did you choose to implement.</u></h3>
+
+    <p>Currently, game enthusiasts will have to find details about new games from various websites and online reviews. 
+        I am doing an online magazine that consolidates the list of highly anticipated games that are coming out each year. 
+        This is a site for users to gather information on new gaming titles and what to expect from them. 
+        The website has a top-down hierarchy structure. At the top is the title of the magazine “GameOver News”. 
+        Users will be able to navigate the site using the navigation bar situated below the title. The navigation bar consist of a home button, a news button, a drop down list containing the games listed, an about button, and a subscribe button. 
+        Scrolling down to the end will enable the back to top button to appear at the bottom right.
+    </p>
+    
+    <h3><u>State 3 things that have inspired you when creating your website. These could include guest speakers, other websites, artists, developers etc.</u></h3>
+
+    <p>As a gamer, I have played various number of games, some of which were excellent while others fell short of what was to be expected and few were downright disappointing. 
+        With many new and exciting games coming out every year, it is a tough choice to choose which games to get. 
+        In my younger days, there were a couple of times where I have regretted purchasing a game as it was not what it seems to be or it turns out I lost interest in it due to poor story/mechanics/etc . 
+        Thus, this led me to source for various news and articles about future games before considering getting them. 
+        I have seen videos, reviews and articles about games from sites such as PC Gamer, IGN Southeast Asia, seeing if it will be something I would play. 
+        As such, for this coursework, I decided on an online magazine, covering about the latest upcoming games.
+    </p>
+
+    <h3><u>State 3 ways in which your site is accessible.</u></h3>
+
+    <P>Most of the demographic who will be visiting my website would be using devices such as PC or mobile phones, as such I ensure that my website should be displayable on the browsers of the following devices such as PC / Laptop / Mobile Phone / Tablets. 
+        I used @media query to change the font size and change the size or position of certain elements of the site to work with various small screen displays.
+        I also added in the alt text description for users that have poor vision and requires the usage of screen readers for the pictures.
+    </P>
+
+    <h3><u>State 3 ways in which you have considered usability in your site.</u></h3>
+
+    <p>One usability would be that when the user has scrolled down far enough, there will be a pop-up arrow button at the bottom right to help the user automatically scroll to the top when they click on it.
+        There is a subscribe form for them to sign up to notify them about updates or news for the various games if they are interested.
+        The user can find out more on the games listed by using the navigation bar or by clicking on the read more listed under the games and in about just 2 clicks, they can read about the various infomation provided.
+    </p>
+
+    <h3><u>State 3 things you had to learn/find out by yourself when creating your site, and describe how you did that (i.e. what searches you did, any new tools/techniques you learned, any changes/adaptations you made to a particular resource to make it work with your site).</u></h3>
+    
+    <p>I learned that java codes will interfere with other java codes even though it is not in use in another page. 
+        By using the console log, I was able to determine that the slideshow code was interfering and causing errors on the other pages as there was no slideshow function on them and this results in some of the other codes not functioning.
+        I learned that by compressing the images, to reduce the size of it, by a certain amount, the image stills retain its quality and this helps in speeding up the loading time of the images.
+        Using gifs instead of a video to reduce the user's loading time, to show a snippet of what the game will look like.
+    </p>
+
+    <h3><u>What aspect(s) of your work do you think worked well and why?</u></h3>
+
+    <p>The background title at the top with the gradient fall off aesthetically looks good making the website look like a news webpage.
+        I believe that my clickable automatic slideshow worked well as having some sort of animation can keep the user interested on the page itself and also because it took some researching as well as some debugging together to make it functional.
+        The back to top arrow button is very useful when users have scrolled far down as it will bring them back to the top for them to see the navigation bar. 
+        The column cards below the slideshow works well as it gives user the base summary of the video game and if they want to find out more, they can simply click the picture or the "read more...".
+        The zig zag style to show information gives the webpage a more unique look as oppose to just having the information cluttered into a single column.
+    </p>
+
+    <h3><u>What aspect(s) of your work could be improved, and how might you do things differently another time?</u></h3>
+    
+    <p>I believe that my subscribe page could be improve as I have no clue as how to make it function as well as checking for the validity of the text and the script to handle it seems to not work for me. 
+        As a result, I opt to use the “required” method to handle the mandatory requirements. I will have to research more on the javascript side on the functions to make it run properly and implement proper validity checks.
+        I had a tough time implementing more of the read more button per page as I realise there was some sort of additional requirement for javascript/css that needed to be added to add more of it or that there was some conflict which I did not have the time to implement it.
+        In another time, I would have research and study the code more carefully before addding it to the website.
+    </p>
+
+    <h3><u>What resources were used when creating your work?</u></h3>
+
+    <p style="white-space: pre-line;"><a href = "https://stackoverflow.com/questions/13892559/html-and-css-display-images-inside-a-border-image/">Display Images inside Border</a>
+        <a href ="https://www.w3schools.com/howto/howto_js_slideshow.asp">Slideshow</a>
+        <a href ="https://jsfiddle.net/tssqtdp7/">Clickable auto slideshow</a>
+        <a href ="https://www.img2go.com/">For decreasing the size of the images</a>
+        <a href ="https://cloudconvert.com/mp4-converter">For reducing video size</a>
+        <a href ="https://en.wikipedia.org/wiki/Font_family_(HTML)">Font family reference</a>
+        <a href ="https://codepen.io/slstudios/pen/rVYbqM">Footer example code</a>
+        <a href="https://www.w3schools.com/howto/howto_js_read_more.asp">Read more/less code</a>
+        <a href ="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_zig_zag_layout&stacked=h">Zig Zag Layout Code</a>
+        <a href ="https://www.w3schools.com/howto/howto_js_read_more.asp">Read more code</a>
+        <a href ="https://www.w3schools.com/howto/howto_css_signup_form.asp"> Sign up form</a>
+        <a href ="https://www.w3schools.com/howto/howto_css_column_cards.asp"> Column cards</a>
+        
+        -------Reference Websites-------
+        <a href ="https://www.pcgamer.com/">https://www.pcgamer.com/</a>
+        <a href ="https://www.gameinformer.com/">https://www.gameinformer.com/</a>
+        <a href ="https://www.gamesradar.com/">https://www.gamesradar.com/</a>
+        <a href ="https://sea.ign.com/">https://sea.ign.com/</a>
+        
+        <a href ="https://www.youtube.com/c/Halo/featured">HALO - YouTube</a>
+        <a href ="https://www.youtube.com/watch?v=4i86Ckj8xKk&t=1s">Halo multiplayer gameplay video</a>
+        <a href ="https://www.youtube.com/watch?v=MesnGRa16oA&t=27s"> Halo Story Trailer</a>
+        <a href ="https://www.xbox.com/en-SG/games/halo-infinite">Halo Infinite | Xbox Information</a>
+        
+        <a href ="https://www.youtube.com/c/Battlefield/featured">Battlefield - YouTube</a>
+        <a href ="https://www.youtube.com/watch?v=ASzOzrB-a9E&t=1s">Battlefield 2042 reveal trailer</a>
+        <a href ="https://www.youtube.com/watch?v=WomAGoEh-Ss"> Battlefield gameplay trailer</a>
+        <a href ="https://www.youtube.com/watch?v=q4qWMcQfOCc"> Battlefield Portal trailer</a>
+        <a href ="https://www.ea.com/games/battlefield/battlefield-2042">Battlefield 2042 | Information</a>
+        
+        <a href ="https://www.playstation.com/en-us/games/horizon-forbidden-west/">Horizon Forbidden West | Information</a>
+        <a href ="https://www.youtube.com/watch?v=Lq594XmpPBg"> Announcement trailer</a>
+        <a href ="https://www.youtube.com/watch?v=wQATS4HOxdo"> State of play gameplay</a>
+        
+        <a href ="https://www.youtube.com/c/DyingLightGameOfficial/featured">Dying Light - YouTube</a>
+        <a href ="https://dl2.dyinglightgame.com/">Dying Light 2 | Information</a>
+        <a href ="https://www.youtube.com/watch?v=UwJAAy7tPhE">Dying Light 2 gameplay trailer</a>
+        <a href ="https://www.youtube.com/watch?v=N1_7wjuzqwI">Dying Light E3 trailer</a>
+        </p>
+
+    <h3><u>Appendices: Site Map, Wireframes and Mock-ups</u></h3>
+    <h3>Appendix A - Site Map :</h3>
+
+    <img src="Pictures/SiteMap.png" alt="SiteMap">
+
+    <h3><u>Appendix B - Wireframes & Mock-ups</u></h3>
+    <div class="imageContainer">
+        <h4><b>Wide-Screen Wireframe:</b></h4>
+        <p>Index/Home</p>
+        <img class="wireFrames" src="Pictures/Wireframe/WS_1.jfif" alt="WS_1">
+        <p>Page 1 & 2 share the same layout</p>
+        <img class="wireFrames" src="Pictures/Wireframe/WS_2.jfif" alt="WS_2">
+        <img class="wireFrames" src="Pictures/Wireframe/WS_3.jfif" alt="WS_3">
+        <p>Page 3</p>
+        <img class="wireFrames" src="Pictures/Wireframe/WS_4.jfif" alt="WS_4">
+        <p>Page 5</p>
+        <img class="wireFrames" src="Pictures/Wireframe/WS_5.jfif" alt="WS_5">
+<hr>
+        <h4><b>Small-Screen Wireframe:</b></h4>
+        <p>Index/Home</p>
+        <img class="wireFrames" src="Pictures/Wireframe/SS_1.jfif" alt="SS_1">
+        <p>Page 1 & 2 share the same layout</p>
+        <img class="wireFrames" src="Pictures/Wireframe/SS_2.jfif" alt="SS_2">
+        <img class="wireFrames" src="Pictures/Wireframe/SS_3.jfif" alt="SS_3">
+        <p>Page 3</p>
+        <img class="wireFrames" src="Pictures/Wireframe/SS_4.jfif" alt="SS_4">
+        <p>Page 5</p>
+        <img class="wireFrames" src="Pictures/Wireframe/SS_5.jfif" alt="SS_5">
+<hr>
+        <h4><b>Wide-Screen Mock-up:</b></h4>
+        <p>Index/Home</p>
+        <img class="mockUps" src="Pictures/Mock-ups/WS_index1.png" alt="WS_index1">
+        <img class="mockUps" src="Pictures/Mock-ups/WS_index2.png" alt="WS_index2">
+        <p>Page 1 & 2 share the same layout</p>
+        <img class="mockUps" src="Pictures/Mock-ups/WS_Gameinfo1.png" alt="WS_Gameinfo1">
+        <img class="mockUps" src="Pictures/Mock-ups/WS_Gameinfo2.png" alt="WS_Gameinfo2">
+        <img class="mockUps" src="Pictures/Mock-ups/WS_Gameinfo3.png" alt="WS_Gameinfo3">
+        <img class="mockUps" src="Pictures/Mock-ups/WS_Gameinfo4.png" alt="WS_Gameinfo4">
+        <p>Page 3</p>
+        <img class="mockUps" src="Pictures/Mock-ups/WS_About.png" alt="WS_About">
+        <p>Page 5</p>
+        <img class="mockUps" src="Pictures/Mock-ups/WS_Signup.png" alt="WS_Signup">
+<hr>
+        <h4><b>Small-Screen Mock-up:</b></h4>
+        <p>Index/Home</p>
+        <img class="ssmockUps" src="Pictures/Mock-ups/SS_index1.png" alt="SS_index1">
+        <img class="ssmockUps" src="Pictures/Mock-ups/SS_index2.png" alt="SS_index2">
+        <img class="ssmockUps" src="Pictures/Mock-ups/SS_index3.png" alt="SS_index3">
+        <p>Page 1 & 2 share the same layout</p>
+        <img class="ssmockUps" src="Pictures/Mock-ups/SS_Gameinfo1.png" alt="SS_Gameinfo1">
+        <img class="ssmockUps" src="Pictures/Mock-ups/SS_Gameinfo2.png" alt="SS_Gameinfo2">
+        <img class="ssmockUps" src="Pictures/Mock-ups/SS_Gameinfo3.png" alt="SS_Gameinfo3">
+        <img class="ssmockUps" src="Pictures/Mock-ups/SS_Gameinfo4.png" alt="SS_Gameinfo4">
+        <img class="ssmockUps" src="Pictures/Mock-ups/SS_Gameinfo5.png" alt="SS_Gameinfo5">
+        <img class="ssmockUps" src="Pictures/Mock-ups/SS_Gameinfo6.png" alt="SS_Gameinfo6">
+        <img class="ssmockUps" src="Pictures/Mock-ups/SS_Gameinfo7.png" alt="SS_Gameinfo7">
+        <img class="ssmockUps" src="Pictures/Mock-ups/SS_Gameinfo8.png" alt="SS_Gameinfo8">
+        <img class="ssmockUps" src="Pictures/Mock-ups/SS_Gameinfo9.png" alt="SS_Gameinfo9">
+        <p>Page 3</p>
+        <img class="ssmockUps" src="Pictures/Mock-ups/SS_About1.png" alt="SS_About1">
+        <img class="ssmockUps" src="Pictures/Mock-ups/SS_About2.png" alt="SS_About2">
+        <p>Page 5</p>
+        <img class="ssmockUps" src="Pictures/Mock-ups/SS_Signup1.png" alt="SS_Signup1">
+        <img class="ssmockUps" src="Pictures/Mock-ups/SS_Signup2.png" alt="SS_Signup2">
+<hr>        
+    </div>
+    <h3><u>C - Acknowledgements</u></h3>
+    <p>[1] Amanda Hurych ‘Halo Infinite Guide: Everything We Know So Far’ 2021. [Online]. Available:
+        <a href="https://www.thegamer.com/halo-infinite-guide-story-multiplayer-release-date/">Halo Infinite Guide: Everything We Know So Far (thegamer.com)</a> [Accessed: 9- Aug- 2021].
+    </p>
+    
+    <p>[2] ‘Halo Infinite 10K’, 2020. [Online]. Available:
+        <a href="https://hdqwalls.com/halo-infinite-10k-wallpaper">https://hdqwalls.com/halo-infinite-10k-wallpaper.</a> [Accessed: 9- Aug- 2021].
+    </p>
+
+    <p>[3] ‘Halo Infinite’, 2020. [Online]. Available:
+        <a href="https://whvn.cc/kworo6">https://whvn.cc/kworo6.</a> [Accessed: 9- Aug- 2021]. Published by Crossby.</p>
+
+    <p>[4] ‘Battlefield 2042’, 2021. [Online]. Available:
+        <a href="https://whvn.cc/y85owd">https://whvn.cc/y85owd.</a> [Accessed: 9- Aug- 2021]. Published by Scuba21.</p>
+
+    <p>[5] ‘Battlefield 2042 Wingsuit’, 2021. [Online]. Available:
+        <a href="https://whvn.cc/28zlwm">https://whvn.cc/28zlwm.</a> [Accessed: 12- Aug- 2021]. Published by Scuba21.</p>
+
+    <p>[6] ‘Aloy (Horizon Series) 4k Ultra HD Wallpaper’, 2020. [Online]. Available:
+        <a href="https://wall.alphacoders.com/big.php?i=1082417">https://wall.alphacoders.com/big.php?i=1082417.</a> [Accessed: 16- Aug- 2021]. Published by theomeganerd.
+    </p>
+
+    <p>[7] ‘Horizon II: Forbidden West’, 2020. [Online]. Available:
+        <a href="https://whvn.cc/mdkrpy">https://whvn.cc/mdkrpy.</a> [Accessed: 16- Aug- 2021]. Published by ThexMorgan.
+    </p>
+
+    <p>[8] ‘Dying Light 2: Stay Human HD Wallpaper’, 2020. [Online]. Available:
+        <a href="https://wall.alphacoders.com/big.php?i=1148838">https://wall.alphacoders.com/big.php?i=1148838.</a> [Accessed: 16- Aug- 2021]. Published by MisterInked.
+    </p>
+    
+    <p>[9] ‘Dying Light 2: Stay Human 8k Ultra HD Wallpaper’, 2018. [Online]. Available:
+        <a href="https://wall.alphacoders.com/big.php?i=926738">https://wall.alphacoders.com/big.php?i=926738.</a> [Accessed: 16- Aug- 2021]. Published by Deridder45.
+    </p>
+    <hr>
+</div>
+
+
+<button onclick="topPage()" id="topBtn" title="Top arrow">⇪</button>
+
+<!-- Footer -->
+<footer class="footer">
+
+    <h3><b>GameOver <span> News </span></b></h3>
+
+    <p class="footer-links">
+      <a href="index.html">Home</a>
+      |
+      <a href="index.html#information">News</a>
+      |
+      <a href="GameInfo1.html">Games</a>
+      |
+      <a href="About.html">About</a>
+      |
+      <a href="Subscribe.html">Subscribe</a>
+    </p>
+
+    <p class="footer-company-name">GameOver News © 2021</p>
+
+    <div class="footer-icons">
+
+      <a href="#" onclick="social()"><i class="fa fa-facebook"></i></a>
+      <a href="#" onclick="social()"><i class="fa fa-twitter"></i></a>
+      <a href="#" onclick="social()"><i class="fa fa-youtube"></i></a>
+      <a href="#" onclick="social()"><i class="fa fa-instagram"></i></a>
+      <a href="#" onclick="social()"><i class="fa fa-twitch"></i></a>
+      <a href="#" onclick="social()"><i class="fa fa-steam"></i></a>
+
+    </div>
+
+</footer>
+
+<script src="Scripts/myScripts.js"></script>
+
+</body>

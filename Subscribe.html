@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang= "en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="Stylesheet/styles.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Subscribe</title>
+</head>
+
+<body style="background-color: grey;">
+  <div class="topbar">
+    <a href="index.html">
+      <div class="header"><b>GAMEOVER NEWS</b></div>
+    </a>
+  </div>
+  <ul id="navbar">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="index.html#information">News</a></li>
+    <li class="dropdown">
+      <a class="dropbtn">Games</a>
+        <div class="dropdown-content">
+          <a href="GameInfo1.html#halo">Halo Infinite</a>
+          <a href="GameInfo1.html#bf2042">Battlefield 2042</a>
+          <a href="GameInfo2.html#horizon">Horizon Forbidden West</a>
+          <a href="GameInfo2.html#dying">Dying Light 2</a>
+        </div>
+    </li>
+    <li><a href="About.html">About</a></li>
+    <li><a href="report.html">Report</a></li>
+    <a href="Subscribe.html" class="rightbutton">SUBSCRIBE</a>
+  </ul>
+<br><br>
+
+<!-- Subscribe Form -->
+<!-- FROM W3-SCHOOLS -->
+<form id="signUpForm" style="border:1px solid #ccc">
+  <br>
+  <div class="subcontainer">
+    <h1>Subscribe</h1>
+    <p>Please create an account to recieve news/updates on your favourite games!</p>
+    <hr>
+
+    <label for="email"><b>*Email:</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>*Password:</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="name"><b>Name:</b></label>
+    <input type="text" placeholder="Enter Your Name" name="name">
+
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:5px"> Remember me!
+    </label>
+
+    <p><input type="checkbox" name="Terms" required> *By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+    <div class="clearfix">
+      <button type="reset" class="clearbtn">Clear</button>
+      <button type="submit" onclick="alertPop()" class="signupbtn">Subscribe</button>
+    </div>
+  </div>
+  <br>
+</form>
+
+<br><br>
+
+<button onclick="topPage()" id="topBtn" title="Top arrow">⇪</button>
+
+<footer class="footer">
+
+  <h3><b>GameOver <span> News </span></b></h3>
+
+    <p class="footer-links">
+      <a href="index.html">Home</a>
+      |
+      <a href="index.html#information">News</a>
+      |
+      <a href="GameInfo1.html">Games</a>
+      |
+      <a href="About.html">About</a>
+      |
+      <a href="Subscribe.html">Subscribe</a>
+    </p>
+
+    <p class="footer-company-name">GameOver News © 2021</p>
+
+    <div class="footer-icons">
+
+      <a href="#" onclick="social()"><i class="fa fa-facebook"></i></a>
+      <a href="#" onclick="social()"><i class="fa fa-twitter"></i></a>
+      <a href="#" onclick="social()"><i class="fa fa-youtube"></i></a>
+      <a href="#" onclick="social()"><i class="fa fa-instagram"></i></a>
+      <a href="#" onclick="social()"><i class="fa fa-twitch"></i></a>
+      <a href="#" onclick="social()"><i class="fa fa-steam"></i></a>
+
+    </div>
+
+</footer>
+
+<script src="Scripts/myScripts.js"></script>
+
+</body>
+</html>
